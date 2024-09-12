@@ -1,0 +1,175 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    position: relative; /* Permite o posicionamento absoluto do botão de menu */
+}
+
+header .menu-toggle {
+    display: none; /* Oculta o botão em telas grandes */
+    background: #333; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 24px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    position: absolute; /* Posiciona o botão em relação ao cabeçalho */
+    top: 20px;
+    right: 20px;
+}
+
+/* Estiliza o menu de navegação */
+nav {
+    margin-top: 20px; /* Espaçamento superior do menu */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores das listas */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 10px; /* Espaçamento entre os itens da lista */
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Estiliza a área principal do conteúdo */
+main {
+    padding: 20px; /* Espaçamento interno */
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estiliza os artigos e seções dentro da área principal */
+article, section {
+    background: #fff; /* Cor de fundo dos artigos e seções */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento entre artigos/seções */
+}
+
+article h2 a {
+    color: #333; /* Cor do título do post */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+article h2 a:hover {
+    text-decoration: underline; /* Sublinha o título ao passar o mouse */
+}
+
+/* Estiliza o conteúdo do post */
+.post-content img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do conteúdo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estiliza a barra lateral */
+aside {
+    padding: 20px; /* Espaçamento interno */
+    background: #fff; /* Cor de fundo da barra lateral */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estiliza os títulos e listas dentro da barra lateral */
+aside h2 {
+    margin-top: 0; /* Remove a margem superior dos títulos na barra lateral */
+}
+
+aside ul {
+    list-style: none; /* Remove os marcadores das listas */
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px; /* Espaçamento inferior entre itens da lista */
+}
+
+aside ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor dos links */
+}
+
+aside ul li a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+footer ul {
+    list-style: none; /* Remove os marcadores das listas */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 10px; /* Espaçamento entre os itens da lista */
+}
+
+footer ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    header .menu-toggle {
+        display: block; /* Exibe o botão de menu em telas pequenas */
+    }
+
+    nav {
+        display: none; /* Oculta o menu de navegação por padrão */
+    }
+
+    nav.active {
+        display: block; /* Exibe o menu de navegação quando ativo */
+    }
+
+    nav ul {
+        display: block; /* Exibe os itens da lista em bloco */
+        text-align: center; /* Alinha os itens ao centro */
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block; /* Exibe os itens da lista em bloco */
+        margin: 10px 0; /* Espaçamento entre os itens da lista */
+    }
+}

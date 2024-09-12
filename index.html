@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define o conjunto de caracteres utilizado no documento -->
+    <meta charset="UTF-8">
+
+    <!-- Define as configurações da viewport para tornar o site responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fornece uma breve descrição do site, importante para SEO e compartilhamento em redes sociais -->
+    <meta name="description" content="Descrição do seu site">
+
+    <!-- Define o título que aparecerá na aba do navegador -->
+    <title>MR.Gomes</title>
+
+    <!-- Inclui o arquivo de estilos CSS para a aparência do site -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeça do site, geralmente inclui o logo e o menu de navegação -->
+    <header>
+
+        <!-- Adiciona um botão de menu para dispositivos móveis -->
+        <button class="menu-toggle" aria-label="Toggle menu">
+            &#9776; <!-- Ícone de menu (três linhas horizontais) -->
+        </button>
+
+        <!-- Menu de navegação principal do site -->
+        <nav>
+            <ul>
+                <!-- Link para a página inicial -->
+                <li><a href="/">Pagina Inicial</a></li>
+                <!-- Link para a página sobre -->
+                <li><a href="/">Sobre</a></li>
+                <!-- Link para a página de contato -->
+                <li><a href="/">Contato</a></li>
+            </ul>
+        </nav>
+
+        <!-- Título e descrição do site, geralmente exibido no topo da página -->
+        <h1>Blog de Tecnologia - MR.Gomes</h1>
+        <p>Bem-vindo ao blog onde discutimos tudo sobre tecnologia e desenvolvimento!</p>
+    </header>
+
+    <!-- Mensagem de boas-vindas -->
+    <div id="welcome-message" style="display: none;">
+        <p>Bem-vindo ao nosso blog de tecnologia!</p>
+    </div>
+
+    <!-- Começo da área principal de conteúdo da página -->
+    <main>
+        <!-- Seção principal da página, pode ser usada para diferentes conteúdos -->
+        <section class="post-preview">
+            <article>
+                <!-- Título do post com um link para a página do post -->
+                <h2><a href="/post/introducao-ao-javascript">Introdução ao JavaScript</a></h2>
+                <!-- Resumo ou introdução do post -->
+                <p>JavaScript é uma linguagem de programação essencial para desenvolvimento web. Neste artigo, exploraremos o básico do JavaScript e como ele pode ser usado para tornar seu site mais interativo.</p>
+                <!-- Link para ler o post completo -->
+                <a href="/post/slug-do-post">Leia mais</a>
+            </article>
+            <!-- Estrutura básica de post em sites simples. Para mais postagens, basta duplicar o bloco de código acima -->
+            <article>
+                <!-- Título do post com um link para a página do post -->
+                <h2><a href="/post/o-que-e-react">O que é React?</a></h2>
+                <!-- Resumo ou introdução do post -->
+                <p>React é uma biblioteca JavaScript para criar interfaces de usuário. Descubra como o React pode ajudar você a construir aplicações web eficientes e escaláveis.</p>
+                <!-- Link para ler o post completo -->
+                <a href="/post/slug-do-post">Leia mais</a>
+            </article>
+            <!-- Estrutura básica de post em sites simples. Para mais postagens, basta duplicar o bloco de código acima -->
+            <article>
+                <!-- Título do post com um link para a página do post -->
+                <h2><a href="/post/dicas-para-otimizacao-de-sites">Dicas para Otimização de Sites</a></h2>
+                <!-- Resumo ou introdução do post -->
+                <p>Otimizar seu site é crucial para melhorar a performance e a experiência do usuário. Confira nossas melhores dicas para garantir que seu site carregue rapidamente e funcione bem.</p>
+                <!-- Link para ler o post completo -->
+                <a href="/post/slug-do-post">Leia mais</a>
+            </article>
+            <!-- Estrutura básica de post em sites simples. Para mais postagens, basta duplicar o bloco de código acima -->
+        </section>
+    </main>
+
+    <!-- Artigo de post completo (pode ser exibido na mesma página ou em uma página separada) -->
+    <article>
+        <!-- Título do post completo -->
+        <h1>Título do Post</h1>
+        <!-- Data de publicação do post -->
+        <p>12/09/2024</p>
+        <!-- Conteúdo do post, como parágrafos, imagens, etc. -->
+        <div class="post-content">
+            <!-- Conteúdo do post vai aqui -->
+        </div>
+        <!-- Informações adicionais do post, como tags e opções de compartilhamento -->
+        <div class="post-footer">
+            <p>Tags: <span>tag1</span>, <span>tag2</span></p>
+            <p>Compartilhar: <a href="#">Facebook</a> <a href="#">Twitter</a></p>
+        </div>
+    </article>
+
+    <!-- Barra lateral (sidebar) para conteúdos adicionais -->
+    <aside>
+        <!-- Seção de busca do site -->
+        <section class="search">
+            <h2>Pesquisar</h2>
+            <form action="/search" method="get">
+                <!-- Campo de entrada para busca -->
+                <input type="text" name="q" placeholder="Buscar...">
+                <!-- Botão de envio do formulário de busca -->
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <!-- Seção de categorias -->
+        <section class="categories">
+            <h2>Categorias</h2>
+            <ul>
+                <!-- Links para diferentes categorias -->
+                <li><a href="/category/desenvolvimento-web">Desenvolvimento Web</a></li>
+                <li><a href="/category/programacao">Programação</a></li>
+                <li><a href="/category/tendencias-tecnologicas">Tendências Tecnológicas</a></li>
+            </ul>
+        </section>
+
+        <!-- Seção de arquivos -->
+        <section class="archives">
+            <h2>Arquivos</h2>
+            <ul>
+                <!-- Links para arquivos por data -->
+                <li><a href="/archive/setembro-2024">Setembro 2024</a></li>
+                <li><a href="/archive/agosto-2024">Agosto 2024</a></li>
+                <!-- Para outros arquivos, basta duplicar o bloco de código acima -->
+            </ul>
+        </section>
+    </aside>
+
+    <!-- Rodapé do site, geralmente inclui informações de copyright e links adicionais -->
+    <footer>
+        <!-- Informações de copyright -->
+        <p>&copy; 2024 MR.Gomes. Todos os direitos reservados</p>
+        <!-- Links para páginas legais -->
+        <ul>
+            <li><a href="/privacy-policy">Política de Privacidade</a></li>
+            <li><a href="/terms-of-service">Termos de Serviço</a></li>
+        </ul>
+    </footer>
+
+<!-- Adiciona o arquivo JavaScript -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
