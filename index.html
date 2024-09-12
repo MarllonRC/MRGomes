@@ -30,11 +30,11 @@
         <nav>
             <ul>
                 <!-- Link para a página inicial -->
-                <li><a href="/">Pagina Inicial</a></li>
+                <li><a href="index.html">Pagina Inicial</a></li>
                 <!-- Link para a página sobre -->
-                <li><a href="/">Sobre</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
                 <!-- Link para a página de contato -->
-                <li><a href="/">Contato</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
 
@@ -54,29 +54,29 @@
         <section class="post-preview">
             <article>
                 <!-- Título do post com um link para a página do post -->
-                <h2><a href="/post/introducao-ao-javascript">Introdução ao JavaScript</a></h2>
+                <h2><a href="introducao-javascript.html]">Introdução ao JavaScript</a></h2>
                 <!-- Resumo ou introdução do post -->
                 <p>JavaScript é uma linguagem de programação essencial para desenvolvimento web. Neste artigo, exploraremos o básico do JavaScript e como ele pode ser usado para tornar seu site mais interativo.</p>
                 <!-- Link para ler o post completo -->
-                <a href="/post/slug-do-post">Leia mais </a>
+                <a href="introducao-javascript.html">Leia mais </a>
             </article>
             <!-- Estrutura básica de post em sites simples. Para mais postagens, basta duplicar o bloco de código acima -->
             <article>
                 <!-- Título do post com um link para a página do post -->
-                <h2><a href="/post/o-que-e-react">O que é React?</a></h2>
+                <h2><a href="oque-e-react.html">O que é React?</a></h2>
                 <!-- Resumo ou introdução do post -->
                 <p>React é uma biblioteca JavaScript para criar interfaces de usuário. Descubra como o React pode ajudar você a construir aplicações web eficientes e escaláveis.</p>
                 <!-- Link para ler o post completo -->
-                <a href="/post/slug-do-post">Leia mais</a>
+                <a href="oque-e-react.html">Leia mais</a>
             </article>
             <!-- Estrutura básica de post em sites simples. Para mais postagens, basta duplicar o bloco de código acima -->
             <article>
                 <!-- Título do post com um link para a página do post -->
-                <h2><a href="/post/dicas-para-otimizacao-de-sites">Dicas para Otimização de Sites</a></h2>
+                <h2><a href="dicas-otimizacao.html">Dicas para Otimização de Sites</a></h2>
                 <!-- Resumo ou introdução do post -->
                 <p>Otimizar seu site é crucial para melhorar a performance e a experiência do usuário. Confira nossas melhores dicas para garantir que seu site carregue rapidamente e funcione bem.</p>
                 <!-- Link para ler o post completo -->
-                <a href="/post/slug-do-post">Leia mais</a>
+                <a href="dicas-otimizacao.html">Leia mais</a>
             </article>
             <!-- Estrutura básica de post em sites simples. Para mais postagens, basta duplicar o bloco de código acima -->
         </section>
@@ -148,6 +148,34 @@
 
 <!-- Adiciona o arquivo JavaScript -->
 <script src="scripts.js"></script>
+
+<script>
+    // Função para pesquisar dentro da página
+    function searchContent() {
+        // Obtém o valor do campo de pesquisa e converte para minúsculas
+        const input = document.getElementById('searchInput');
+        const filter = input.value.toLowerCase();
+        
+        // Obtém todos os elementos <article> na seção de posts
+        const articles = document.querySelectorAll('.posts-section article');
+        
+        // Itera sobre cada artigo
+        articles.forEach(article => {
+            // Obtém o texto do título e do conteúdo do artigo
+            const title = article.querySelector('h2').innerText.toLowerCase();
+            const content = article.querySelector('p').innerText.toLowerCase();
+            
+            // Verifica se o título ou o conteúdo do artigo contém o valor da pesquisa
+            if (title.includes(filter) || content.includes(filter)) {
+                // Se contém, exibe o artigo
+                article.style.display = '';
+            } else {
+                // Se não contém, oculta o artigo
+                article.style.display = 'none';
+            }
+        });
+    }
+</script>
 
 </body>
 </html>

@@ -223,6 +223,253 @@ footer ul li a:hover {
     text-decoration: underline; /* Adiciona um sublinhado aos links ao passar o mouse para indicar interatividade */
 }
 
+/* Estiliza o elemento <main> somente na página de introdução ao JavaScript */
+.introducao-javascript main {
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+    background: #fff; /* Define a cor de fundo como branca */
+    border-radius: 10px; /* Arredonda os cantos para um efeito mais suave */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+}
+
+/* Estiliza a seção específica de introdução ao JavaScript */
+.introducao-javascript .javascript-intro-section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    background: #f9f9f9; /* Define a cor de fundo da seção */
+    border-radius: 10px; /* Arredonda os cantos para um efeito mais suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+    margin-top: px;
+}
+
+/* Estiliza os títulos da seção de introdução ao JavaScript */
+.introducao-javascript .javascript-intro-section h1,
+.introducao-javascript .javascript-intro-section h2 {
+    color: #333; /* Define a cor dos títulos */
+}
+
+/* Estiliza o código e os blocos de código na seção de introdução ao JavaScript */
+.introducao-javascript .javascript-intro-section code,
+.introducao-javascript .javascript-intro-section pre {
+    background: #e0e0e0; /* Define a cor de fundo dos blocos de código */
+    border: 1px solid #ddd; /* Adiciona uma borda fina de cor cinza clara */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Arredonda os cantos para um efeito mais suave */
+    display: block; /* Faz com que o bloco de código ocupe uma linha completa */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se o código for muito largo */
+}
+
+/* Estiliza o rodapé da página de introdução ao JavaScript */
+.introducao-javascript footer {
+    background: #333; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin-top: 20px; /* Adiciona espaçamento superior */
+}
+
+/* Estiliza a lista de links no rodapé */
+.introducao-javascript footer ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+    margin: 0; /* Remove a margem */
+}
+
+/* Estiliza os itens da lista no rodapé */
+.introducao-javascript footer ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 10px; /* Adiciona espaço à direita de cada item */
+}
+
+/* Estiliza os links no rodapé */
+.introducao-javascript footer ul li a {
+    color: #fff; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estiliza os links no rodapé ao passar o mouse */
+.introducao-javascript footer ul li a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado aos links ao passar o mouse */
+}
+
+/* Estiliza o elemento <main> somente na página 'O que é React' */
+.oque-e-react main {
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+    background: #fff; /* Define a cor de fundo como branca */
+    border-radius: 10px; /* Arredonda os cantos para um efeito mais suave */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+}
+
+/* Estiliza a seção específica sobre o React */
+.oque-e-react .react-section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    background: #f9f9f9; /* Define a cor de fundo da seção */
+    border-radius: 10px; /* Arredonda os cantos para um efeito mais suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+}
+
+/* Estiliza os títulos da seção sobre o React */
+.oque-e-react .react-section h1,
+.oque-e-react .react-section h2 {
+    color: #333; /* Define a cor dos títulos */
+}
+
+/* Estiliza o código e os blocos de código na seção sobre o React */
+.oque-e-react .react-section code,
+.oque-e-react .react-section pre {
+    background: #e0e0e0; /* Define a cor de fundo dos blocos de código */
+    border: 1px solid #ddd; /* Adiciona uma borda fina de cor cinza clara */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Arredonda os cantos para um efeito mais suave */
+    display: block; /* Faz com que o bloco de código ocupe uma linha completa */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se o código for muito largo */
+}
+
+/* Estiliza o rodapé da página 'O que é React' */
+.oque-e-react footer {
+    background: #333; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin-top: 20px; /* Adiciona espaçamento superior */
+}
+
+/* Estiliza a lista de links no rodapé */
+.oque-e-react footer ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+    margin: 0; /* Remove a margem */
+}
+
+/* Estiliza os itens da lista no rodapé */
+.oque-e-react footer ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 10px; /* Adiciona espaço à direita de cada item */
+}
+
+/* Estiliza os links no rodapé */
+.oque-e-react footer ul li a {
+    color: #fff; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estiliza os links no rodapé ao passar o mouse */
+.oque-e-react footer ul li a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado aos links ao passar o mouse */
+}
+
+/* Estiliza o elemento <main> somente na página 'Dicas para Otimização de Sites' */
+.dicas-otimizacao main {
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+    background: #fff; /* Define a cor de fundo como branca */
+    border-radius: 10px; /* Arredonda os cantos para um efeito mais suave */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+}
+
+/* Estiliza a seção específica sobre dicas de otimização */
+.dicas-otimizacao .otimizacao-section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    background: #f9f9f9; /* Define a cor de fundo da seção */
+    border-radius: 10px; /* Arredonda os cantos para um efeito mais suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+}
+
+/* Estiliza os títulos da seção sobre otimização de sites */
+.dicas-otimizacao .otimizacao-section h1,
+.dicas-otimizacao .otimizacao-section h2 {
+    color: #333; /* Define a cor dos títulos */
+}
+
+/* Estiliza o código e os blocos de código na seção sobre otimização */
+.dicas-otimizacao .otimizacao-section code,
+.dicas-otimizacao .otimizacao-section pre {
+    background: #e0e0e0; /* Define a cor de fundo dos blocos de código */
+    border: 1px solid #ddd; /* Adiciona uma borda fina de cor cinza clara */
+    padding: 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Arredonda os cantos para um efeito mais suave */
+    display: block; /* Faz com que o bloco de código ocupe uma linha completa */
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se o código for muito largo */
+}
+
+/* Estiliza o rodapé da página 'Dicas para Otimização de Sites' */
+.dicas-otimizacao footer {
+    background: #333; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin-top: 20px; /* Adiciona espaçamento superior */
+}
+
+/* Estiliza a lista de links no rodapé */
+.dicas-otimizacao footer ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento */
+    margin: 0; /* Remove a margem */
+}
+
+/* Estiliza os itens da lista no rodapé */
+.dicas-otimizacao footer ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 10px; /* Adiciona espaço à direita de cada item */
+}
+
+/* Estiliza os links no rodapé */
+.dicas-otimizacao footer ul li a {
+    color: #fff; /* Define a cor do texto dos links como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estiliza os links no rodapé ao passar o mouse */
+.dicas-otimizacao footer ul li a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado aos links ao passar o mouse */
+}
+
+/* Estiliza a seção de pesquisa na página 'Dicas para Otimização de Sites' */
+.dicas-otimizacao .search-section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima da seção de pesquisa */
+    margin: auto; /* Centraliza a seção horizontalmente */
+}
+
+/* Estiliza a seção de pesquisa na página inicial */
+.search-section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima da seção de pesquisa */
+    margin: auto; /* Centraliza a seção horizontalmente */
+}
+
+/* Estiliza o campo de pesquisa */
+#searchInput {
+    width: 100%; /* Define a largura do campo de pesquisa como 100% da largura do contêiner */
+    padding: 10px; /* Adiciona espaçamento interno */
+    font-size: 16px; /* Define o tamanho da fonte */
+    border: 1px solid #ddd; /* Adiciona uma borda fina */
+    border-radius: 5px; /* Arredonda os cantos */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+}
+
+/* Estiliza a seção de posts */
+.posts-section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    max-width: 800px; /* Define a largura máxima da seção de posts */
+    margin: auto; /* Centraliza a seção horizontalmente */
+}
+
+/* Estiliza cada artigo na seção de posts */
+.posts-section article {
+    background: #fff; /* Define a cor de fundo dos artigos */
+    border-radius: 5px; /* Arredonda os cantos dos artigos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para profundidade */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin-bottom: 20px; /* Adiciona espaçamento inferior entre artigos */
+}
+
+
+
 /* Responsividade */
 @media (max-width: 768px) {
     /* Estilos para telas menores que 768px */

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres e configurações de visualização -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descrição da página para SEO e compartilhamento -->
+    <meta name="description" content="Entre em contato com o Blog de Tecnologia MR.Gomes">
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Contato - MR.Gomes</title>
+    <!-- Inclui o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeça do site -->
+    <header>
+        <!-- Botão para alternar o menu de navegação em dispositivos móveis -->
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <!-- Menu de navegação principal -->
+        <nav>
+            <ul>
+                <!-- Links para outras páginas do site -->
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Título e descrição do site -->
+        <h1>Blog de Tecnologia - MR.Gomes</h1>
+        <p>Bem-vindo ao blog onde discutimos tudo sobre tecnologia e desenvolvimento!</p>
+    </header>
+
+    <!-- Área principal do conteúdo da página -->
+    <main>
+        <!-- Seção do formulário de contato -->
+        <section class="contact-form-section">
+            <h1>Contato</h1>
+            <!-- Descrição breve sobre o formulário -->
+            <p>Se você tiver alguma dúvida, sugestão ou quiser entrar em contato conosco, preencha o formulário abaixo:</p>
+            
+            <!-- Formulário de contato -->
+            <form action="/send-message" method="post" class="contact-form">
+                <!-- Campo de entrada para nome -->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                
+                <!-- Campo de entrada para e-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                
+                <!-- Campo de textarea para mensagem -->
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                
+                <!-- Botão para enviar o formulário -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <!-- Informações de copyright -->
+        <p>&copy; 2024 MR.Gomes. Todos os direitos reservados</p>
+        <!-- Links para páginas legais -->
+        <ul>
+            <li><a href="/privacy-policy">Política de Privacidade</a></li>
+            <li><a href="/terms-of-service">Termos de Serviço</a></li>
+        </ul>
+    </footer>
+
+    <!-- Inclui o arquivo JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

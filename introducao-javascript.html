@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres utilizado no documento -->
+    <meta charset="UTF-8">
+    <!-- Define as configurações da viewport para tornar o site responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fornece uma breve descrição do site, importante para SEO e compartilhamento em redes sociais -->
+    <meta name="description" content="Introdução ao JavaScript - Aprenda os conceitos básicos do JavaScript com exemplos simples.">
+    <!-- Define o título que aparecerá na aba do navegador -->
+    <title>Introdução ao JavaScript - MR.Gomes</title>
+    <!-- Inclui o arquivo de estilos CSS geral do site -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Inclui o arquivo de estilos CSS específico para a página de introdução ao JavaScript -->
+    <link rel="stylesheet" href="introducao-javascript.css">
+</head>
+
+<body class="introducao-javascript">
+    <!-- Cabeça do site, geralmente inclui o logo e o menu de navegação -->
+    <header>
+        <!-- Botão de menu para dispositivos móveis -->
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <!-- Menu de navegação principal do site -->
+        <nav>
+            <ul>
+                <!-- Links de navegação para diferentes seções do site -->
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="introducao-javascript.html">Introdução ao JavaScript</a></li>
+            </ul>
+        </nav>
+        <!-- Título e descrição do site, geralmente exibido no topo da página -->
+        <h1>Blog de Tecnologia - MR.Gomes</h1>
+        <p>Bem-vindo ao blog onde discutimos tudo sobre tecnologia e desenvolvimento!</p>
+    </header>
+
+    <!-- Área principal do conteúdo da página -->
+    <main>
+        <!-- Seção específica para a introdução ao JavaScript -->
+        <section class="javascript-intro-section">
+            <h1>Introdução ao JavaScript</h1>
+            <p>JavaScript é uma linguagem de programação essencial para o desenvolvimento web. Ela permite criar interatividade e dinamicidade em páginas da web. Vamos explorar alguns conceitos básicos:</p>
+            
+            <!-- Título e conteúdo sobre variáveis -->
+            <h2>1. Variáveis</h2>
+            <p>Em JavaScript, variáveis são usadas para armazenar dados. Você pode declarar uma variável usando <code>let</code>, <code>const</code> ou <code>var</code>. Exemplo:</p>
+            <pre><code>let nome = "João";</code></pre>
+            
+            <!-- Título e conteúdo sobre funções -->
+            <h2>2. Funções</h2>
+            <p>Funções são blocos de código projetados para realizar uma tarefa específica. Você pode definir uma função usando a palavra-chave <code>function</code>. Exemplo:</p>
+            <pre><code>function saudacao() {
+    console.log("Olá, Mundo!");
+}</code></pre>
+            
+            <!-- Título e conteúdo sobre eventos -->
+            <h2>3. Eventos</h2>
+            <p>Eventos são ações que ocorrem no navegador, como cliques e teclas pressionadas. Você pode adicionar eventos a elementos HTML usando JavaScript. Exemplo:</p>
+            <pre><code>document.getElementById("meuBotao").addEventListener("click", function() {
+    alert("Botão clicado!");
+});</code></pre>
+        </section>
+    </main>
+
+    <!-- Rodapé do site, geralmente inclui informações de copyright e links adicionais -->
+    <footer>
+        <p>&copy; 2024 MR.Gomes. Todos os direitos reservados</p>
+        <ul>
+            <li><a href="/privacy-policy">Política de Privacidade</a></li>
+            <li><a href="/terms-of-service">Termos de Serviço</a></li>
+        </ul>
+    </footer>
+
+    <!-- Adiciona o arquivo JavaScript geral do site -->
+    <script src="scripts.js"></script>
+</body>
+</html>

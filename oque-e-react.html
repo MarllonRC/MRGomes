@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres utilizado no documento -->
+    <meta charset="UTF-8">
+    <!-- Define as configurações da viewport para tornar o site responsivo em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fornece uma breve descrição do site, importante para SEO e compartilhamento em redes sociais -->
+    <meta name="description" content="O que é React - Descubra o que é React, uma biblioteca JavaScript popular para criar interfaces de usuário.">
+    <!-- Define o título que aparecerá na aba do navegador -->
+    <title>O que é React - MR.Gomes</title>
+    <!-- Inclui o arquivo de estilos CSS geral do site -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Inclui o arquivo de estilos CSS específico para a página 'O que é React' -->
+    <link rel="stylesheet" href="oque-e-react.css">
+</head>
+
+<body class="oque-e-react">
+    <!-- Cabeça do site, geralmente inclui o logo e o menu de navegação -->
+    <header>
+        <!-- Botão de menu para dispositivos móveis -->
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <!-- Menu de navegação principal do site -->
+        <nav>
+            <ul>
+                <!-- Links de navegação para diferentes seções do site -->
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="/sobre.html">Sobre</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+                <li><a href="/introducao-javascript.html">Introdução ao JavaScript</a></li>
+                <li><a href="/oque-e-react.html">O que é React</a></li>
+            </ul>
+        </nav>
+        <!-- Título e descrição do site, geralmente exibido no topo da página -->
+        <h1>Blog de Tecnologia - MR.Gomes</h1>
+        <p>Bem-vindo ao blog onde discutimos tudo sobre tecnologia e desenvolvimento!</p>
+    </header>
+
+    <!-- Área principal do conteúdo da página -->
+    <main>
+        <!-- Seção específica sobre o React -->
+        <section class="react-section">
+            <h1>O que é React?</h1>
+            <p>React é uma biblioteca JavaScript para construir interfaces de usuário, desenvolvida e mantida pelo Facebook. Ele permite criar aplicações web interativas de forma eficiente e modular.</p>
+            
+            <!-- Título e conteúdo sobre os principais conceitos do React -->
+            <h2>1. Componentes</h2>
+            <p>Os componentes são a base do React. Eles permitem dividir a interface em partes reutilizáveis e independentes. Cada componente pode gerenciar seu próprio estado e lógica. Exemplo:</p>
+            <pre><code>function MeuComponente() {
+    return &lt;div&gt;Olá, Mundo!&lt;/div&gt;;
+}</code></pre>
+            
+            <!-- Título e conteúdo sobre o estado e as propriedades -->
+            <h2>2. Estado e Propriedades</h2>
+            <p>O estado (state) é um objeto que armazena dados específicos do componente e pode mudar ao longo do tempo. As propriedades (props) são passadas para os componentes e são imutáveis. Exemplo:</p>
+            <pre><code>function Contador(props) {
+    const [contador, setContador] = React.useState(0);
+
+    return (
+        &lt;div&gt;
+            &lt;p&gt;Contador: {contador}&lt;/p&gt;
+            &lt;button onClick={() => setContador(contador + 1)}&gt;Incrementar&lt;/button&gt;
+        &lt;/div&gt;
+    );
+}</code></pre>
+            
+            <!-- Título e conteúdo sobre o ciclo de vida dos componentes -->
+            <h2>3. Ciclo de Vida</h2>
+            <p>O ciclo de vida de um componente é o conjunto de métodos que são chamados em diferentes fases da existência do componente. Estes métodos permitem executar código em momentos específicos, como quando o componente é montado ou atualizado. Exemplo:</p>
+            <pre><code>React.useEffect(() => {
+    // Código a ser executado após a montagem do componente
+    console.log('Componente montado');
+
+    return () => {
+        // Código a ser executado antes da desmontagem do componente
+        console.log('Componente desmontado');
+    };
+}, []);</code></pre>
+        </section>
+    </main>
+
+    <!-- Rodapé do site, geralmente inclui informações de copyright e links adicionais -->
+    <footer>
+        <p>&copy; 2024 MR.Gomes. Todos os direitos reservados</p>
+        <ul>
+            <li><a href="/privacy-policy">Política de Privacidade</a></li>
+            <li><a href="/terms-of-service">Termos de Serviço</a></li>
+        </ul>
+    </footer>
+
+    <!-- Adiciona o arquivo JavaScript geral do site -->
+    <script src="scripts.js"></script>
+</body>
+</html>
