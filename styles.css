@@ -147,6 +147,82 @@ footer ul li a:hover {
     text-decoration: underline; /* Sublinha os links ao passar o mouse */
 }
 
+/* Estilização da seção de rodapé do post */
+.post-footer {
+    margin-top: 20px; /* Adiciona espaço acima da seção para separá-la do conteúdo principal */
+    padding: 15px; /* Adiciona espaço interno ao redor do conteúdo da seção */
+    background: #f9f9f9; /* Define a cor de fundo da seção */
+    border-top: 1px solid #ddd; /* Adiciona uma borda superior fina e de cor cinza clara para separar visualmente a seção */
+    border-radius: 5px; /* Arredonda os cantos da borda da seção para um efeito mais suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para dar um efeito de profundidade */
+}
+
+/* Estiliza os parágrafos dentro da seção de rodapé do post */
+.post-footer p {
+    margin: 0 0 10px; /* Remove a margem superior e adiciona uma margem inferior de 10px para separar os parágrafos */
+    font-size: 14px; /* Define o tamanho da fonte para uma leitura confortável */
+}
+
+/* Estiliza a seção de compartilhamento social dentro do rodapé do post */
+.post-footer .post-share {
+    margin-bottom: 10px; /* Adiciona uma margem inferior para separar a seção de compartilhamento do restante do conteúdo */
+}
+
+/* Estiliza o parágrafo dentro da seção de compartilhamento social */
+.post-footer .post-share p {
+    margin: 0; /* Remove a margem do parágrafo para um alinhamento mais próximo dos botões de compartilhamento */
+    font-weight: bold; /* Define o texto em negrito para destacar o título da seção */
+}
+
+/* Estiliza os links de compartilhamento social */
+.post-footer .post-share a {
+    display: inline-block; /* Faz com que os links se comportem como blocos em linha, permitindo definir largura e altura */
+    margin-right: 10px; /* Adiciona espaço à direita de cada link para separá-los */
+    padding: 5px 10px; /* Adiciona espaço interno dentro de cada link para aumentar a área clicável */
+    font-size: 14px; /* Define o tamanho da fonte dos links para melhor leitura */
+    color: #fff; /* Define a cor do texto como branca */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    border-radius: 3px; /* Arredonda os cantos dos links para um efeito mais suave */
+    transition: background 0.3s; /* Adiciona uma transição suave de 0.3 segundos para a mudança de cor de fundo ao passar o mouse */
+}
+
+/* Define a cor de fundo dos links de compartilhamento social para Facebook */
+.post-footer .post-share a.facebook {
+    background: #3b5998; /* Cor de fundo específica para o Facebook */
+}
+
+/* Define a cor de fundo dos links de compartilhamento social para Twitter */
+.post-footer .post-share a.twitter {
+    background: #1da1f2; /* Cor de fundo específica para o Twitter */
+}
+
+/* Define a cor de fundo dos links de compartilhamento social para LinkedIn */
+.post-footer .post-share a.linkedin {
+    background: #0077b5; /* Cor de fundo específica para o LinkedIn */
+}
+
+/* Estiliza o estado de foco dos links de compartilhamento social */
+.post-footer .post-share a:hover {
+    opacity: 0.8; /* Diminui a opacidade dos links ao passar o mouse para criar um efeito de destaque */
+}
+
+/* Estiliza a seção do autor dentro do rodapé do post */
+.post-footer .post-author {
+    margin-top: 15px; /* Adiciona uma margem superior para separar a seção do autor do conteúdo acima */
+    font-size: 14px; /* Define o tamanho da fonte para uma leitura confortável */
+}
+
+/* Estiliza os links dentro da seção do autor */
+.post-footer .post-author a {
+    color: #007bff; /* Define a cor do texto dos links como azul */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estiliza o estado de foco dos links dentro da seção do autor */
+.post-footer .post-author a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado aos links ao passar o mouse para indicar interatividade */
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     /* Estilos para telas menores que 768px */
